@@ -1,3 +1,4 @@
+"""Success receipt screen."""
 import config
 
 from rich.align import Align
@@ -16,8 +17,7 @@ def show_receipt(console: Console, result: dict) -> None:
     console.print(Align.center(Text("✓", style="bold bright_green")))
     console.print()
 
-    title = Text("Airdrop claimed", style="bold bright_white")
-    console.print(Align.center(title))
+    console.print(Align.center(Text("Airdrop claimed", style="bold bright_white")))
 
     sub = Text("Your allocation has been distributed. Assets verified and transferred.",
                style="dim")
